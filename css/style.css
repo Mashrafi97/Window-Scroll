@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-color: antiquewhite !important;
+    animation: ami 2s;
+    -webkit-animation: ami 2s;
+}
+@keyframes ami{
+    0%{
+        top:-50px
+    }
+    100%{
+        top: 0;
+    }
+} 
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.menu ul li a.active{
+    background-color: aqua !important;
+}
+#banner{
+    height: 800px;
+    background-color: red;
+}
+#about{
+    height: 800px;
+    background-color: yellow;
+}
+#portfolio{
+    height: 800px;
+    background-color: gray;
+}
+#contact{
+    height: 800px;
+    background-color: green;
+}
+#footer{
+    height: 800px;
+    background-color: purple;
+}
+
+.backtotop{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: white;
+    position: fixed;
+    cursor: pointer;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    line-height: 50px;
+    display: none;
+}
